@@ -5,8 +5,48 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     padding: 0;
-    /* background-color: ; */
+    background-color: rgb(255, 204, 255);
     font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    margin: 10px 10px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: red;
+    cursor: pointer;
+    height: 45px;
+    width: 110px;
+}
+
+.students {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    color: red;
+}
+
+li {
+    transition: .5s;
+}
+
+li:hover {
+    width: 20px;
+    height: 20px;
+    margin: 20px 0;
 }
